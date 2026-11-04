@@ -26,19 +26,19 @@ class CfgWeapons {
 		class Single : Mode_SemiAuto {
 			class BaseSoundModeType {};
 			class StandardSound : BaseSoundModeType {
-				soundSetShot[] = {"Squad_AK103_Sets","Squad_AK103_2_Sets","Squad762_BulletCasings_Sets","AK74_tail_SoundSet"};
+				soundSetShot[] = {"Squad_AK103_Sets", "Squad_AK103_2_Sets", "Squad762_BulletCasings_Sets" ,"AK74_tail_SoundSet"};
 			};
 			class SilencedSound : BaseSoundModeType {
-				soundSetShot[] = {"Squad_AK103Suppressed_Sets","Squad762_BulletCasings_Sets","Squad_AK103Suppressed_2_Sets","MX_silencerTail_SoundSet"};
+				soundSetShot[] = {"Squad_AK103Suppressed_Sets", "Squad762_BulletCasings_Sets", "Squad_AK103Suppressed_2_Sets", "MX_silencerTail_SoundSet"};
 			};
 		};
 		class FullAuto : Mode_FullAuto {
 			class BaseSoundModeType {};
 			class StandardSound : BaseSoundModeType {
-				soundSetShot[] = {"Squad_AK103_Sets","Squad_AK103_2_Sets","Squad762_BulletCasings_Sets","AK74_tail_SoundSet"};
+				soundSetShot[] = {"Squad_AK103_Sets", "Squad_AK103_2_Sets", "Squad762_BulletCasings_Sets", "AK74_tail_SoundSet"};
 			};
 			class SilencedSound : BaseSoundModeType {
-				soundSetShot[] = {"Squad_AK103Suppressed_Sets","Squad762_BulletCasings_Sets","Squad_AK103Suppressed_2_Sets","MX_silencerTail_SoundSet"};
+				soundSetShot[] = {"Squad_AK103Suppressed_Sets", "Squad762_BulletCasings_Sets", "Squad_AK103Suppressed_2_Sets", "MX_silencerTail_SoundSet"};
 			};
 		};
 	};
